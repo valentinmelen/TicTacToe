@@ -128,7 +128,7 @@ public class MyTicTacToe {
             int nrMoves = 0;
             isWin = false;
 
-            while (isWin == false && nrMoves < 9) {
+            while (isWin == false && nrMoves < 2 * GAME_SIZE - 1) {
                 System.out.println("Player " + currentPlayer.name + " face mutarea");
                 //citiesc mutarea
 
